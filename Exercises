@@ -1,0 +1,19 @@
+function pularLinha(){
+        document.write("<br><br>")
+    }
+   
+    function mostra(frase){
+        document.write(frase)
+        pularLinha()
+    }
+
+    function volume(raio){
+        var calculoVolume = ((4/3) * 3.14 * raio * raio * raio)
+        return calculoVolume
+    }
+    
+    var raio = parseInt(prompt("Digite o valor do raio da esfera: "))
+    mostra("O volume da esfera é " + volume(raio))
+
+    </script>
+</center>
